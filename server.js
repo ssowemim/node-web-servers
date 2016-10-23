@@ -21,7 +21,7 @@ app.get('/about', (req,res) => {
     pageTitle: 'About Page',
     currentYear: new Date().getFullYear()
   });
-});
+}); 
 
 app.listen(4000, ()=> {
   console.log('Server is up on port 3000');
